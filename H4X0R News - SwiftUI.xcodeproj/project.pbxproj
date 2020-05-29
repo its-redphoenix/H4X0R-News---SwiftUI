@@ -13,6 +13,7 @@
 		0BC58424247FC45A00A86C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC58423247FC45A00A86C95 /* Assets.xcassets */; };
 		0BC58427247FC45A00A86C95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC58426247FC45A00A86C95 /* Preview Assets.xcassets */; };
 		0BC5842A247FC45A00A86C95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC58428247FC45A00A86C95 /* LaunchScreen.storyboard */; };
+		0BC5843324809FFE00A86C95 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC5843224809FFE00A86C95 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0BC58426247FC45A00A86C95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0BC58429247FC45A00A86C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BC5842B247FC45A00A86C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BC5843224809FFE00A86C95 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		0BC5841C247FC45300A86C95 /* H4X0R News - SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				0BC5843124809FDE00A86C95 /* Models */,
 				0BC5841D247FC45300A86C95 /* AppDelegate.swift */,
 				0BC5841F247FC45300A86C95 /* SceneDelegate.swift */,
 				0BC58421247FC45300A86C95 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				0BC58426247FC45A00A86C95 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0BC5843124809FDE00A86C95 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0BC5843224809FFE00A86C95 /* NetworkManager.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC5843324809FFE00A86C95 /* NetworkManager.swift in Sources */,
 				0BC5841E247FC45300A86C95 /* AppDelegate.swift in Sources */,
 				0BC58420247FC45300A86C95 /* SceneDelegate.swift in Sources */,
 				0BC58422247FC45300A86C95 /* ContentView.swift in Sources */,
