@@ -317,6 +317,7 @@
 				DEVELOPMENT_TEAM = 4WM2BL94N5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "H4X0R News - SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,6 +338,7 @@
 				DEVELOPMENT_TEAM = 4WM2BL94N5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "H4X0R News - SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
