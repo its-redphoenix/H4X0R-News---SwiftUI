@@ -4,7 +4,8 @@
 //
 //  Created by Angela on 28/05/20.
 //  Copyright © 2020 Angela. All rights reserved.
-//
+//  Article published https://bit.ly/2AsjbhQ
+
 
 import SwiftUI
 
