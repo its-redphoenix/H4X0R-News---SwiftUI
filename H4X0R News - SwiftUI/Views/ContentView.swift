@@ -36,17 +36,15 @@ struct ContentView: View {
                                        
                                        Text(post.title)
                                            .foregroundColor(.green)
+                                           .font(.system(.title2))
                                    }
                 }
 
-                //In the this closure
-                //for every single post in the posts array
-                //we are going to use each of this Text objects
-                
-               
-                
-                //this text view will be populated by the .title
-                //property in the posts array
+                .listRowBackground(
+                           Capsule()
+                               .fill(Color.black)
+                               .padding(2)
+                       )
             }
                 
                 
